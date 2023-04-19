@@ -1,8 +1,8 @@
 column_names  = ['name', 'salary', 'job']
 db_rows       = [ ('Alice', 180000, 'data scientist'),
-                  ('Bob', 89000, 'testter'),
+                  ('Bob', 89000, 'tester'),
                   ('Frank', 99000, 'ceo')]
 
-db  = [dict(zip(column names, row)) for row in db_rows]
+db  = [dict(zip(column_names, row)) for row in db_rows]
 
 print(db)
