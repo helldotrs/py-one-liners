@@ -5,8 +5,7 @@ b = np.array( [
                 [1, 2],
                 [3, 4]
               ])
-
-print(b)
+print("b:{}", b)
 
 # 3d array from list of lists of lists
 c = np.array( [
@@ -19,5 +18,4 @@ c = np.array( [
                   [7, 8]
                 ]
               ])
-
-print(c)
+print("c:{}", c)
