@@ -5,7 +5,7 @@ b = np.array( [
                 [1, 2],
                 [3, 4]
               ])
-print(f"b:{}\n", b)
+print(f"b:\n{b}")
 
 # 3d array from list of lists of lists
 c = np.array( [
@@ -18,4 +18,4 @@ c = np.array( [
                   [7, 8]
                 ]
               ])
-print(f"c: {}\n", c)
+print(f"c:\n{c}")
