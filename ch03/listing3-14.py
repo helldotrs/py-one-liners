@@ -17,7 +17,7 @@ polluted    = np.nonzero(x < np.average(x))[0]
 print(polluted)
 
 # test
-polluted    = [np.nonzero(x < np.average(x))[0]]
+polluted    = cities[np.nonzero(x < np.average(x))[0]]
 print(polluted)
 
 # one-liner:
