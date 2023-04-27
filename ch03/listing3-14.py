@@ -20,6 +20,9 @@ print(polluted)
 polluted    = cities[np.nonzero(x > np.average(x))[0]]
 print(polluted)
 
+# 
+print(x)
+
 # listing 3-15
 print(x > np.average(x))
 
