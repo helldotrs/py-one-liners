@@ -1,7 +1,7 @@
 import numpy as np
 
 #data, rows --> cities
-x np.array(
+x   = np.array(
   [
     [42, 40, 42, 43, 44, 43], #HK
     [30, 30, 29, 30, 31, 30], #NY
