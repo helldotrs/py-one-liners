@@ -10,14 +10,17 @@ x   = np.array(
   ]
 )
 
+cities      = np.array(["Hong Kong", "New York", "Berlin", "Montreal"])
+
 #test
-polluted  = np.nonzero(x < np.average(x))[0]
+polluted    = np.nonzero(x < np.average(x))[0]
+print(polluted)
 
 # test
-polluted  = cities[np.nonzero(x < np.average(x))[0]]
+polluted    = [np.nonzero(x < np.average(x))[0]]
 print(polluted)
 
 # one-liner:
-polluted  = set(cities[np.nonzero(x < np.average(x))[0]]) #fr how cool is  this line??!
+polluted    = set(cities[np.nonzero(x < np.average(x))[0]]) #fr how cool is  this line??!
 print(polluted)
     
