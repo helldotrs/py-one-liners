@@ -10,8 +10,14 @@ x np.array(
   ]
 )
 
-# one-liner:
-polluted = set(cities[np.nonzero(x < np.average(x))[0]]) #fr how cool is  this line??!
+#test
+polluted  = np.nonzero(x < np.average(x))[0]
 
+# test
+polluted  = (cities[np.nonzero(x < np.average(x))[0]]
+print(polluted)
+
+# one-liner:
+polluted  = set(cities[np.nonzero(x < np.average(x))[0]]) #fr how cool is  this line??!
 print(polluted)
     
